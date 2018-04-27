@@ -20,7 +20,7 @@ class Options extends Component {
   };
 
   handlePressSite = () => {
-    Linking.openURL("httpdsa://fixer.io").catch(() =>
+    Linking.openURL("http://fixer.io").catch(() =>
       this.props.alertWithType(
         "error",
         "Sorry!",
